@@ -125,7 +125,7 @@ function about() {
   <audio id="timallen" src="timallen.wav" preload="auto"></audio>
 
   <center><div id="container1"></div></center>
-  <div id="titlediv">IPew Attack Map</div>
+  <div id="titlediv">Attack Map</div>
   <div id="attackdiv"></div>
   <div id="aboutdiv"><i class="fa fa-question-circle fa-2x" onClick="about();"></i></div>
 
@@ -449,7 +449,7 @@ function about() {
              srclat = centers[center_id].LAT;
              srclong = centers[center_id].LONG;
            }
-           
+
            // Specify a destination country
            if (typeof destination !== 'undefined' && getDestination() < 80) {
              dstcountry = destination.toUpperCase();
@@ -528,6 +528,6 @@ function about() {
     d3.select(window).on('resize', function() { location.reload(); });
 
 </script>
-   
+
 </body>
 </html>
